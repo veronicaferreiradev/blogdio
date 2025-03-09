@@ -39,4 +39,13 @@ public class Publicacao {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+
+    public Publicacao(Long id, String texto, String titulo) {
+        this.id = id;
+        this.texto = texto;
+        this.titulo = titulo;
+    }
+
+    public Publicacao() {
+    }
 }

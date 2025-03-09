@@ -40,4 +40,13 @@ public class Tema {
     public void setPublicacao(List<Publicacao> publicacao) {
         this.publicacao = publicacao;
     }
+
+    public Tema(String descricao, Long id, List<Publicacao> publicacao) {
+        this.descricao = descricao;
+        this.id = id;
+        this.publicacao = publicacao;
+    }
+
+    public Tema() {
+    }
 }
